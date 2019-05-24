@@ -16,7 +16,9 @@ Postman+Newman+Report
 ```
 
 **Step 4 Jenkins job add(OS:Windows)**
+
 Build(Excute Windows batch command)
+
 ```
 > newman run ./collection.json -e ./environment.json --reporters html,cli --reporter-html-template templates/htmlreqres.hbs --reporter-html-export report.html
 ```
